@@ -26,8 +26,42 @@
 
 *Git push:Es un comando de Git que se utiliza para transferir y guardar en un repositorio remoto los cambios que previamente han sido confirmados en el repositorio local. Su función principal es sincronizar el trabajo realizado en la computadora del usuario con el repositorio en línea, de manera que los cambios queden almacenados de forma segura y puedan ser compartidos o consultados por otros colaboradores.*
 
+## Historial y Ramas🌿⏱️
 
 
+**Git branch**
+`git branch`
+`git branch nombre_rama`
+`git branch -d nombre_rama`
+
+
+*Sirve para trabajar con ramas. Con `git branch` puedes ver la lista de ramas y en cuál estás ubicado.*
+*Con `git branch nombre_rama` creas una nueva rama para desarrollar funcionalidades sin afectar la principal.*
+*Finalmente, con `git branch -d nombre_rama` puedes eliminar una rama que ya no necesitas.*
+
+**Git checkout**
+`git checkout nombre_rama`
+
+
+*Permite cambiar de una rama a otra dentro del repositorio.*
+
+
+**Git merge**
+`git merge nombre_rama`
+
+
+*Fusiona el contenido de una rama con la rama actual.*
+*Se utiliza principalmente para integrar el trabajo de una rama secundaria (por ejemplo, feature) con la rama principal (main o develop).*
+
+
+**Git log**
+
+
+`git log`
+
+
+*Muestra el historial de commits realizados en el proyecto.*
+*Incluye información como autor, fecha, identificador único (hash) y el mensaje del commit. Es útil para consultar los cambios hechos en el tiempo.*
 
 
 
