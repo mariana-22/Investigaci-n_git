@@ -83,7 +83,31 @@
 
 
 *Descarga y fusiona los cambios más recientes desde el repositorio remoto con tu rama local.*
-*Es recomendable ejecutarlo antes de trabajar para asegurarte de estar actualizado con los cambios de otros colaboradores.*
+*Es recomendable ejecutarlo antes de trabajar para asegurarte de estar actualizado con los cambios de otros colaboradores
+
+---
+
+###  Otros comandos útiles de Git (con explicación detallada)
+
+* *git stash* → Guarda temporalmente los cambios que aún no quieres confirmar (commit).
+   Ejemplo: si estás trabajando en una nueva funcionalidad, pero necesitas cambiar rápidamente de rama, puedes guardar tus cambios en el stash sin perderlos.
+
+* *git stash pop* → Recupera los cambios que habías guardado con git stash y los aplica de nuevo en tu área de trabajo.
+   Esto es útil cuando ya terminaste lo que estabas haciendo en otra rama y quieres continuar con el trabajo anterior.
+
+* *git remote -v* → Muestra los repositorios remotos asociados a tu proyecto y sus URLs.
+   Sirve para confirmar si tu proyecto está conectado a GitHub, GitLab o cualquier otro repositorio remoto.
+
+* *git tag* → Lista todas las etiquetas (tags) creadas en el repositorio.
+   Los tags se usan normalmente para marcar versiones importantes de un proyecto, como una *v1.0* estable.
+
+* *git tag -a v1.0 -m "Versión 1.0"* → Crea una nueva etiqueta anotada (con mensaje y metadatos como fecha, autor, etc.) llamada *v1.0*.
+   Esto se utiliza para identificar una versión específica del proyecto en la historia de commits.
+
+---
+
+
+
 
 
 
