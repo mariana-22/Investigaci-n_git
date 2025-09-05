@@ -26,6 +26,9 @@
 
 *Git push:Es un comando de Git que se utiliza para transferir y guardar en un repositorio remoto los cambios que previamente han sido confirmados en el repositorio local. Su función principal es sincronizar el trabajo realizado en la computadora del usuario con el repositorio en línea, de manera que los cambios queden almacenados de forma segura y puedan ser compartidos o consultados por otros colaboradores.*
 
+
+
+
 ## Historial y Ramas🌿⏱️
 
 
@@ -62,6 +65,35 @@
 
 *Muestra el historial de commits realizados en el proyecto.*
 *Incluye información como autor, fecha, identificador único (hash) y el mensaje del commit. Es útil para consultar los cambios hechos en el tiempo.*
+
+
+
+
+## Actualizar y fusionar📥
+
+**Git push**
+`git push origin main`
+
+
+*Envía los cambios confirmados en el repositorio local hacia el repositorio remoto.*
+*Este comando es esencial cuando trabajas en equipo, ya que publica tu trabajo para que otros lo vean.*
+
+**Git pull**
+`git pull`
+
+
+*Descarga y fusiona los cambios más recientes desde el repositorio remoto con tu rama local.*
+*Es recomendable ejecutarlo antes de trabajar para asegurarte de estar actualizado con los cambios de otros colaboradores.*
+
+
+
+
+
+
+
+
+
+
 
 
 
